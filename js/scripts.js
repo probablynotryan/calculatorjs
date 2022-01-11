@@ -1,8 +1,11 @@
-function add(number1, number2) {
-    return number1 + number2;
-}
+jQuery("h1").click(function() {
+  alert("This is a heading.");
+});
 
-let number1 = parseInt(prompt("Enter a number:"));
-let number2 = parseInt(prompt("Enter another number:"));
+jQuery("p").click(function() {
+  alert("This is a paragraph.");
+});
 
-alert(add(number1, number2));
+jQuery("img").click(function() {
+  alert("This is an image.");
+});
